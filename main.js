@@ -1,22 +1,23 @@
-var myAge = '23';
+var myAge = 23;
 // This is my current age represented as trips around the sun.
 
-var earlyYears = '2';
+var earlyYears = 2;
 // This variable accounts for the beginning of my life.
 
 earlyYears *= 10.5;
+// Converting early years to dog years.
 
-myAge -= 2;
-
-var laterYears = myAge;
+var laterYears = myAge - 2;
 // This accounts for my years not including the early years.
 
 laterYears *= 4;
 // This is the representation of dog age compared to human years.
 
 console.log(earlyYears);
+// Checking my work to see if it is correct so far.
 
 console.log(laterYears);
+// Checking my work to see if it is correct so far.
 
 var myAgeInDogTears;
 myAgeInDogYears = earlyYears + laterYears;
